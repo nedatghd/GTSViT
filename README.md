@@ -30,4 +30,7 @@ To run this project, follow these steps:
 
     ```shell
     python main.py --model gtsvit --dataset_name ip --dataset_dir ./datasets --patch_size 8 --num_run 10 --epoch 200 --bs 128 --ratio 0.10 --wandb_project GSCViT-HSI-ip
+    python main.py --model gtsvit --dataset_name sa --dataset_dir ./datasets --patch_size 8 --num_run 10 --epoch 200 --bs 128 --ratio 0.2 --wandb_project GSCViT-HSI-sa
+    python main.py --model gtsvit --dataset_name whulk --dataset_dir ./datasets --patch_size 8 --num_run 10 --epoch 200 --bs 128 --ratio 0.04 --wandb_project GSCViT-HSI-whulk
+
     ```
